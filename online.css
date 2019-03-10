@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny&subset=latin-ext');
+
+body{
+	background-image: linear-gradient(to bottom,rgba(255,0,0,0),rgba(255,0,0,1));
+}
+#heading{
+	text-shadow:2px 2px 5px blue;
+	padding:20px 20px ;
+	font-weight: bold;
+	font-size: 3.5em;
+	font-family:'Coiny', cursive;
+}
+
+.format{
+	display: inline-block;
+	font-size: 1.8em;
+	font-family: Comic Sans MS, cursive, sans-serif;
+	background-color: white;
+	width: 200px;
+	height: 50px;
+	padding: 10px 5px;
+	text-align: center;
+
+}
+
+#login{
+	
+	text-decoration: underline;
+	font-size: 20px;
+	color: white;
+
+}
+
+.imgs{
+	display:inline-block;
+	padding: 5px;
+
+	
+}
+
+#foot{
+	padding:20px;
+	color:white;
+	
+	
+
+}
+table,th,td{
+	border:1px double green;
+	padding:55px;
+	background-color: none;
+	color:black;
+	font-weight:bold;
+}
+.algn{
+	text-align: center;
+}
+
+.dropdown{
+	position:relative;
+	display:inline-block; 
+	margin-left:150px;
+	color:yellow;
+}
+
+.drop {
+	position:relative;
+	display:inline-block; 	
+        background-color:pink;
+	font-size:20px;
+	text-align:center;
+	color:white;
+	width:200px;
+
+  
+ 
+   
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: pink;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  
+
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  color:blue;
+}
+#one{
+	width:100%;
+	z-index:-1;
+	opacity:0.4;
+	position:fixed;
+}
+.first{
+	margin-top:25px;
+}
+image.myslides{
+	padding-left:200px;
+	
+}
+
+.size {
+  background-color: lightgrey;
+  width: 300px;
+  border: 5px solid green;
+  padding: 5px;
+  margin-left: 625px;
+  text-align:center;
+}
+.top{
+	padding-left:725px
+}
+a{
+	color:orange;
+	
+}

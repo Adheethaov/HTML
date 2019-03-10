@@ -1,0 +1,107 @@
+
+<html>
+<head>
+	<title>Registration form</title>
+	<link rel="stylesheet" type="text/css" href="online.css">
+</head>
+<body>
+	<figure>
+			<img id="one" src="C:\Users\MyPc\Desktop\udacity\s6\IT lab\week3\mynthra.jpg" alt="image of mynthra">
+		</figure>
+<center>
+	
+	<form method="post" action="">
+		<fieldset style="width:30%">
+		<div class="first"> </div>
+		<h1>	Registration Form </h1>
+		<div>
+		<label>User id:</label>
+		&nbsp &nbsp	&nbsp
+		<input type="text" value="" maxlength="12" pattern=".{5,12}" title="length from 5 to 12" required></input>
+		<br><br>
+
+		</div>
+		<div>
+		<label align="left">Password:</label>
+		&nbsp 
+		<input type="password" value="" pattern=".{7,12}" title="password must between 7 to 12" required></input>
+
+		</div>
+		<br>
+		<div>
+		<label>Name :</label>
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type="text" value=""  pattern="[a-zA-Z]" title="alphabets only " placeholder="required" required></input>
+		</div>
+		<br>
+		
+		<div>
+		<label style="vertical-align:top ">Address:</label>
+		&nbsp&nbsp&nbsp	
+		<textarea rows=6 cols=21placeholder="optional"></textarea>
+		</div>
+		<br>
+		
+
+		<div>
+		<label>Country:</label>
+		&nbsp&nbsp&nbsp	
+		<select value="" required>
+			<option vlaue="" disabled>(Please select a country)</option>
+			<option>India</option>
+			<option>Australia</option>
+			<option>Japan</option>
+		</select>
+		</div>
+		<br>
+		
+		<div>
+		<label >Zip Code:</label>
+		&nbsp
+		<input type="text" value=""  pattern=".{1,}" title="numerics only " placeholder="required" required></input>
+		</div>
+		<br>
+		
+	<div>
+		<label>Email:</label>
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp	
+		<input type="text" value=""  pattern="[a-zA-Z0-9]" title="must be valid " placeholder="required" required></input>
+		</div>
+		<br>
+		
+
+		<div>
+        <label>Sex :</label> &nbsp &nbsp 
+<input type="radio" name="gender" value="male"   required>Male</input> 
+<input type="radio" name="gender" value="female"   required>Female</input>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp 
+		</div>
+		<br>
+		
+		<div>
+		<label>Language:</label> &nbsp &nbsp
+		
+		<input type="checkbox" name="language" value="English"   checked>English</input>
+
+		<input type="checkbox" name="language" value="French"   >French</input>
+		</div>
+		<br>
+		
+
+		<label style="vertical-align:top">About:</label>
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<textarea rows="4" cols="21" placeholder="optional" display="inline"> 
+		</textarea>
+		</div>
+			<br>
+			<br>
+			<div>
+		<input type="submit" name="" value="Submit" align="center"></input>
+		</div>
+		</fieldset>
+	
+	</form>
+
+</center>
+
+</body>
+</html>
